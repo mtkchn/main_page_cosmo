@@ -1,0 +1,84 @@
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Futura';
+    border-bottom: 1px solid #E8E8E8;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100px;
+}
+
+.logo{
+    font-family: 'Futura';
+
+    width: 200px;
+    font-size: 39px;
+    font-weight: 100;
+
+    
+}
+.logo span{
+    font-family: 'TT Commons';
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #FFDB0F ;
+}
+
+.navbar_head{
+    margin-left: 150px;
+}
+
+.navbar_head a{
+    font-family: 'Futura';
+    margin-right: 30px;
+    font-size: 14px;
+    color: #474747;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.navbar_head a:hover{
+    color: #FFDB0F;
+}
+
+.social{
+    display: flex;
+}
+
+.social_link{
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin-right: 9px ;
+    border: 1px solid #E8E8E8;
+   
+}
+
+.icon_social{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+.right_header_links{
+    display: flex;
+    align-items: center;
+
+}
+
+section{
+    padding: 0.1px;
+}
+
+

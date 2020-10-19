@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Futura";
+    src: url("../resources/fonts/futura/futura-pt-light.ttf");
+    font-weight: normal;
+        font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Futura";
+    src: url('../resources/fonts/futura/futura-pt-bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Futura";
+    src: url('../resources/fonts/futura/FuturaPTCondMedium.otf');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Futura";
+    src: url('../resources/fonts/futura/FuturaPTBook.otf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "FuturaCondBold";
+    src: url('../resources/fonts/futura/FuturaPTCondBold.otf');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Affluent";
+    src: url('../resources/fonts/AffluentBold/AffluentBold.ttf') ;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
+
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('../resources/fonts/TTCommons/TTCommons-Medium.woff2'),
+        url('../resources/fonts/TTCommons/TTCommons-Medium.woff'),
+        url('../resources/fonts/TTCommons/TTCommons-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+  }

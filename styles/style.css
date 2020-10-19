@@ -1,0 +1,71 @@
+.container{
+    margin: 0 auto;
+    width: 94%;
+    max-width: 1802px;
+}
+
+.title_large{
+    margin: 25px 0 40px 0;
+    font-size: 72px;
+    font-family: 'FuturaCondBold';
+    color: #292725;
+    text-transform: uppercase;
+    line-height: 68px;
+}
+
+.title{
+    font-size: 36px;
+    font-family: 'Futura';
+    font-weight: 100;
+    color: #474747;
+}
+
+.paragraph{
+    font-size: 22px;
+    font-family: 'Futura';
+    font-weight: 100;
+    letter-spacing: 1.1px;
+    line-height: 32px;
+    color: #292725;
+}
+
+.text_slider{
+    display: flex;
+}
+
+.btn{
+    display: block;
+    width: 244px;
+    height: 60px;
+    box-sizing: border-box;
+    padding-top: 20px ;
+    border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -khtml-border-radius: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #474747;
+    background-color: #FBFBFB;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; 
+}
+
+.circle{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+

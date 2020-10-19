@@ -1,0 +1,146 @@
+main{
+    font-family: 'Futura';
+}
+
+.bg_slider{
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #F6F6F6 100%)
+}
+
+main section{
+    position: relative;
+    box-sizing: border-box;
+}   
+
+.bg_img_slider{
+    position: absolute;
+    right: -25px;
+    top: 0px;
+ 
+}
+
+
+.ellips{
+    position: absolute;
+    right: 115px;
+    top: 224px;
+    width: 720px;
+    height: 720px;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+
+}
+
+.container_slider{
+    margin-top: 384px;
+    margin-left: 151px;
+    width: 585px;
+}
+
+.lamp_title{
+    margin-bottom: 24px;
+}
+
+.icon_slider{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    margin-right: 18px;
+}
+
+
+.text_slider li{
+    font-stretch: ultra-expanded;
+    display: flex;
+    align-items: center;
+    margin: 0 35px 122px 0;
+    list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color: #292725;
+    font-family: 'Futura';
+    font-weight: 600;
+}
+
+.text_slider li:last-child{
+    margin-right: 0;
+}
+
+.icon_lampa{
+    background-image: url('/resources/icons/lampa.png'); 
+}
+
+.icon_zrodlo{
+    background-image: url('/resources/icons/zrodloswiatla.png'); 
+}
+
+.icon_kierunek{
+    background-image: url('/resources/icons/kierunek.png'); 
+}
+
+.divider{
+    width: 100%;
+    height: 5px;
+    margin: 38px 0 55px 0;
+    background: #E8E8E8;
+    border-radius: 3px;
+}
+
+.btn_slider{
+    margin-bottom: 74px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* offer */
+/* ================================================================================ */
+.offer{
+    text-align: center;
+    padding: 135px 0 165px 0;
+}
+
+.offer div{
+    margin: 0 auto;
+    width: 585px;
+}
+
+.partnership{
+    max-width: 1920px;
+    display: flex;
+    margin: 0 auto 100px auto;
+    overflow: hidden;
+}
+
+.partnership div{
+    width: 50%;
+    height: 900px;
+}
+
+.bg_new_york{
+    background-image: url('../resources/images/new_york.png');
+}
+
+.partnership_content{
+    width: 50%;
+    background-color: #292725;
+    color: #fff;
+}
+.partnership_content .title{
+    margin-top: 187px;
+}
+.partnership_content .title,
+.partnership_content .title_large,
+.partnership_content .paragraph{
+    color: #fff;
+}
+.partnership_content_container{
+    margin: 0 auto;
+    width: 607px;
+}
+
+.btn_partnership{
+    background-color: #292725;
+    margin-top: 175px;
+    box-shadow: -5px -5px 10px #4A4A4A7D;
+    color: #FFFFFF;
+}
+
