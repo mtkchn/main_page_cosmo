@@ -67,15 +67,15 @@ main section{
 }
 
 .icon_lampa{
-    background-image: url('./resources/icons/lampa.png'); 
+    background-image: url('../resources/icons/lampa.png'); 
 }
 
 .icon_zrodlo{
-    background-image: url('./resources/icons/zrodloswiatla.png'); 
+    background-image: url('../resources/icons/zrodloswiatla.png'); 
 }
 
 .icon_kierunek{
-    background-image: url('./resources/icons/kierunek.png'); 
+    background-image: url('../resources/icons/kierunek.png'); 
 }
 
 .divider{
