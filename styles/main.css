@@ -113,6 +113,10 @@ main section{
     border-radius: 3px;
 }
 
+.dotstyle{
+    z-index: 100;
+}
+
 .btn_slider{
     border: 1px solid #F8F8F8;
     

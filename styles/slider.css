@@ -86,21 +86,3 @@ body {
 #block-for-slider{
 }
 
-.slide{
-    height: 100vh;
-}
-.slide:nth-child(1){
-    background-color: black;
-}
-.slide:nth-child(2){
-    background-color: cadetblue;
-}
-.slide:nth-child(3){
-    background-color: chartreuse;
-}
-.slide:nth-child(4){
-    background-color: chocolate ;
-}
-.slide:nth-child(5){
-    background-color: burlywood;
-}
