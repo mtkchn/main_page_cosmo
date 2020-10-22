@@ -34,6 +34,8 @@ $(document).ready(function () {
             });
             slideNow = navBtnId + 1;
             dotsControll(navBtnId)
+            clearInterval(switchInterval);
+            switchInterval = setInterval(nextSlide, slideInterval);
         }
     });
 });
