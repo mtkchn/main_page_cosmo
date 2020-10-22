@@ -1,8 +1,8 @@
-.wrapper ul{
+.dotstyle ul{
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 35px;
+	bottom: calc(35vh/(1080/100));
 	margin: 0 auto;
     width: 147px;
 	height: 147px;
@@ -18,7 +18,7 @@
 }
 
 
-.wrapper li {
+.dotstyle li {
     position: absolute;
 	display: block;
 	width: 13px;
@@ -27,33 +27,34 @@
 	cursor: pointer;
 }
 
-.wrapper li:nth-child(1){
+.dotstyle li:nth-child(1){
     top: 7px;
     left: 22px;
 }
 
-.wrapper li:nth-child(2){
+.dotstyle li:nth-child(2){
     top: -4px;
     left: 43px;
 }
 
-.wrapper li:nth-child(3){
+.dotstyle li:nth-child(3){
     top: -8px;
     right: 66px;
 }
-
-.wrapper li:nth-child(4){
-    top: 7px;
-	right: 22px;
-}
-
-.wrapper li:nth-child(5){
+.dotstyle li:nth-child(4){
     top: -4px;
 	right: 43px;
 	
 }
 
-.wrapper li div {
+.dotstyle li:nth-child(5){
+    top: 7px;
+	right: 22px;
+}
+
+
+
+.dotstyle li div {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -66,41 +67,41 @@
 	cursor: pointer;
 }
 
-.wrapper li div:focus {
+.dotstyle li div:focus {
 	outline: none;
 }
 
-.wrapper-smalldotstroke li {
+.dotstyle-smalldotstroke li {
 	border-radius: 50%;
 	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
 	-webkit-transition: box-shadow 0.3s ease;
 	transition: box-shadow 0.3s ease;
 }
 
-.wrapper-smalldotstroke li div {
+.dotstyle-smalldotstroke li div {
 	-webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.wrapper-smalldotstroke li div:hover,
-.wrapper-smalldotstroke li div:focus,
-.wrapper-smalldotstroke li.current div {
+.dotstyle-smalldotstroke li div:hover,
+.dotstyle-smalldotstroke li div:focus,
+.dotstyle-smalldotstroke li.current div {
 }
 
-.wrapper-smalldotstroke li.current div, .wrapper-smalldotstroke li:hover div {
+.dotstyle-smalldotstroke li.current div, .dotstyle-smalldotstroke li:hover div {
 	background-color: #474747;
 	-webkit-transform: scale(0.33);
 	transform: scale(0.6);
 }
 
-.wrapper-smalldotstroke li {
+.dotstyle-smalldotstroke li {
 	box-shadow: 0 0 0 1px #E8E8E8;
 }
 
 .circle_inner{
-	width: 107px;
-	height: 107px;
-	margin: 20px auto;
+	width: 95px;
+	height: 95px;
+	margin: 26px auto;
 	background-color: #FBFBFB;
 	border: 1px solid #E8E8E8;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
@@ -119,11 +120,11 @@
 }
 
 .circle_inner span:nth-child(1){
-	line-height: 107px;
+	line-height: 95px;
 	font-size: 64px;
 	color: #474747;
 }
 .circle_inner span:nth-child(2){
-	line-height: 107px;
+	line-height: 95px;
 	font-size: 22px;
 }

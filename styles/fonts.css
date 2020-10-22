@@ -7,6 +7,14 @@
 
   @font-face {
     font-family: "Futura";
+    src: url("../resources/fonts/futura/futura-pt-light.ttf");
+    font-weight: 100;
+        font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: "Futura";
     src: url('../resources/fonts/futura/futura-pt-bold.ttf');
     font-weight: bold;
     font-style: normal;

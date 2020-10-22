@@ -1,6 +1,6 @@
 header{
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     background-color: #fff;
     font-family: 'Futura';
@@ -18,12 +18,9 @@ header{
 
 .logo{
     font-family: 'Futura';
-
     width: 200px;
     font-size: 39px;
     font-weight: 100;
-
-    
 }
 .logo span{
     font-family: 'TT Commons';
@@ -33,12 +30,14 @@ header{
 }
 
 .navbar_head{
-    margin-left: 150px;
+    margin-left: calc(150vw/(1920/100));
 }
-
+.toogleMenu{
+    display: none;
+}
 .navbar_head a{
     font-family: 'Futura';
-    margin-right: 30px;
+    margin-right: calc(30vw/(1920/100));
     font-size: 14px;
     color: #474747;
     font-weight: bold;

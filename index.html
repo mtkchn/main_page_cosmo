@@ -3,14 +3,20 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/fonts.css">
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/responcive.css">
+
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/toggle.css">
+  <link rel="stylesheet" href="./styles/slider.css">
   <link rel="stylesheet" href="./styles/dots_navogation.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+
   <title>Document</title>
 </head>
 
@@ -20,6 +26,13 @@
       <div class="logo">
         <span>COSMO</span>Light
       </div>
+      <!-- <div id="toogleMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> -->
+
       <nav class="navbar_head">
         <a href="">O nas</a>
         <a href="">Katalog</a>
@@ -44,64 +57,228 @@
           </div>
           <div class="layer"></div>
         </div>
+
       </div>
+
     </div>
   </header>
   <main>
-    <div class="bg_slider">
-      <div class="container">
-        <section>
-          <div class="ellips"></div>
-          <div class="bg_img_slider">
-            <img src="./resources/images/washington_p05915wh.png" alt="background">
-          </div>
-          <div class="container_slider">
-            <h3 class="title lamp_title">Lampa Washington</h3>
-            <h1 class="title_large">Nowojorska Klasyka stylu</h1>
-            <p class="paragraph">Harmonijna w każdym calu linia lamp Dublin to doskonale zbalansowany taniec światła i
-              cienia.</p>
-            <div class="divider"></div>
-            <ul class="text_slider">
-              <li>
-                <div class="icon_slider icon_lampa">
-                </div>Lampa wisząca
-              </li>
-              <li>
-                <div class="icon_slider icon_zrodlo"></div>
-                <span>1 źródło światła</span>
-              </li>
-              <li>
-                <div class="icon_slider icon_kierunek"></div><span>kierunek świecenia</span>
-              </li>
-            </ul>
-            <a class="btn btn_slider"><span>zobacz produkt</span></a>
-          </div>
-          <div class="wrapper wrapper-smalldotstroke ">
-            <ul class="circle">
-              <li class="current">
-                <div></div>
-              </li>
-              <li>
-                <div></div>
-              </li>
-              <li>
-                <div></div>
-              </li>
-              <li>
-                <div></div>
-              </li>
-              <li>
-                <div></div>
-              </li>
-              <div class="circle_inner circle">
-                <span>1</span>
-                <span>/5</span>
+    <div id="blockforslider">
+      <div id="viewport">
+        <ul id="slidewrapper">
+          <li class="slide">
+            <div class="bg_slider">
+              <div class="container">
+                <section>
+                  <div class="bg_container">
+                    <div class="bg_img_slider">
+                      <img src="./resources/images/washington_p05915wh.png" alt="">
+                      <div class="ellips"></div>
+                    </div>
+                  </div>
+                  <div class="container_slider">
+                    <h3 class="title lamp_title">Lampa Washington</h3>
+                    <h1 class="title_large">Nowojorska Klasyka stylu</h1>
+                    <p class="paragraph">Harmonijna w każdym calu linia lamp Dublin to doskonale zbalansowany taniec
+                      światła i
+                      cienia.</p>
+                    <div class="divider"></div>
+                    <ul class="text_slider">
+                      <li>
+                        <div class="icon_slider icon_lampa">
+                        </div>Lampa wisząca
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_zrodlo"></div>
+                        <span>1 źródło światła</span>
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_kierunek"></div><span>kierunek świecenia</span>
+                      </li>
+                    </ul>
+                    <a class="btn btn_slider"><span>zobacz produkt</span></a>
+                  </div>
+                </section>
               </div>
-            </ul>
-          </div>
-        </section>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="bg_slider">
+              <div class="container">
+                <section>
+                  <div class="bg_container">
+                    <div class="bg_img_slider">
+                      <img src="./resources/images/washington_p05915wh.png" alt="">
+                      <div class="ellips"></div>
+                    </div>
+                  </div>
+                  <div class="container_slider">
+                    <h3 class="title lamp_title">Lampa Washington</h3>
+                    <h1 class="title_large">Slide 1</h1>
+                    <p class="paragraph">Harmonijna w każdym calu linia lamp Dublin to doskonale zbalansowany taniec
+                      światła i
+                      cienia.</p>
+                    <div class="divider"></div>
+                    <ul class="text_slider">
+                      <li>
+                        <div class="icon_slider icon_lampa">
+                        </div>Lampa wisząca
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_zrodlo"></div>
+                        <span>1 źródło światła</span>
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_kierunek"></div><span>kierunek świecenia</span>
+                      </li>
+                    </ul>
+                    <a class="btn btn_slider"><span>zobacz produkt</span></a>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="bg_slider">
+              <div class="container">
+                <section>
+                  <div class="bg_container">
+                    <div class="bg_img_slider">
+                      <img src="./resources/images/washington_p05915wh.png" alt="">
+                      <div class="ellips"></div>
+                    </div>
+                  </div>
+                  <div class="container_slider">
+                    <h3 class="title lamp_title">Lampa Washington</h3>
+                    <h1 class="title_large">Slide 2</h1>
+                    <p class="paragraph">Harmonijna w każdym calu linia lamp Dublin to doskonale zbalansowany taniec
+                      światła i
+                      cienia.</p>
+                    <div class="divider"></div>
+                    <ul class="text_slider">
+                      <li>
+                        <div class="icon_slider icon_lampa">
+                        </div>Lampa wisząca
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_zrodlo"></div>
+                        <span>1 źródło światła</span>
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_kierunek"></div><span>kierunek świecenia</span>
+                      </li>
+                    </ul>
+                    <a class="btn btn_slider"><span>zobacz produkt</span></a>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="bg_slider">
+              <div class="container">
+                <section>
+                  <div class="bg_container">
+                    <div class="bg_img_slider">
+                      <img src="./resources/images/washington_p05915wh.png" alt="">
+                      <div class="ellips"></div>
+                    </div>
+                  </div>
+                  <div class="container_slider">
+                    <h3 class="title lamp_title">Lampa Washington</h3>
+                    <h1 class="title_large">Slide 3</h1>
+                    <p class="paragraph">Harmonijna w każdym calu linia lamp Dublin to doskonale zbalansowany taniec
+                      światła i
+                      cienia.</p>
+                    <div class="divider"></div>
+                    <ul class="text_slider">
+                      <li>
+                        <div class="icon_slider icon_lampa">
+                        </div>Lampa wisząca
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_zrodlo"></div>
+                        <span>1 źródło światła</span>
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_kierunek"></div><span>kierunek świecenia</span>
+                      </li>
+                    </ul>
+                    <a class="btn btn_slider"><span>zobacz produkt</span></a>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="bg_slider">
+              <div class="container">
+                <section>
+                  <div class="bg_container">
+                    <div class="bg_img_slider">
+                      <img src="./resources/images/washington_p05915wh.png" alt="">
+                      <div class="ellips"></div>
+                    </div>
+                  </div>
+                  <div class="container_slider">
+                    <h3 class="title lamp_title">Lampa Washington</h3>
+                    <h1 class="title_large">Slide 4</h1>
+                    <p class="paragraph">Harmonijna w każdym calu linia lamp Dublin to doskonale zbalansowany taniec
+                      światła i
+                      cienia.</p>
+                    <div class="divider"></div>
+                    <ul class="text_slider">
+                      <li>
+                        <div class="icon_slider icon_lampa">
+                        </div>Lampa wisząca
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_zrodlo"></div>
+                        <span>1 źródło światła</span>
+                      </li>
+                      <li>
+                        <div class="icon_slider icon_kierunek"></div><span>kierunek świecenia</span>
+                      </li>
+                    </ul>
+                    <a class="btn btn_slider"><span>zobacz produkt</span></a>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="dotstyle dotstyle-smalldotstroke ">
+          <ul class="circle">
+            <li class="slide-nav-btn current">
+              <div></div>
+            </li>
+            <li class="slide-nav-btn">
+              <div></div>
+            </li>
+            <li class="slide-nav-btn">
+              <div></div>
+            </li>
+            <li class="slide-nav-btn">
+              <div></div>
+            </li>
+            <li class="slide-nav-btn">
+              <div></div>
+            </li>
+            <div class="circle_inner circle">
+              <span id="slide_nr"> 1</span>
+              <span>/5</span>
+            </div>
+          </ul>
+        </div>
       </div>
     </div>
+
+
+
+
+
+
 
     <section class="offer">
       <h3 class="title">
@@ -116,15 +293,75 @@
       </div>
     </section>
     <section class="partnership">
-      <div class="bg_new_york"></div>
+      <div class="wrapper">
+        <div class="bg_new_york">
+          <div class="filterr">
+          </div>
+        </div>
+        <div class="partnership_content_hidden">
+          <h3 class="title">Pakiet korzyści B2B</h3>
+          <div class="list">
+            <div class="list_item">
+              <div class="item_outer circle"></div>
+              <div>
+                <h4>Platforma B2B</h4>
+                <span>Dostęp do wygodnej platformy</span>
+              </div>
+            </div>
+            <div class="list_item">
+              <div class="item_outer circle"></div>
+              <div>
+                <h4>Dogodne terminy płatności</h4>
+                <span>Rozliczanie po 7 lub 21 dniach</span>
+              </div>
+            </div>
+            <div class="list_item">
+              <div class="item_outer circle"></div>
+              <div>
+                <h4>Promocje</h4>
+                <span>Dostępne jedynie dla partnerów B2B</span>
+              </div>
+            </div>
+            <div class="list_item">
+              <div class="item_outer circle"></div>
+              <div>
+                <h4>Wysyłka 24h</h4>
+                <span>Zawsze ekspresowa Wysyłka dla B2B</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="partnership_content">
         <div class="partnership_content_container">
+          <h3 class="title">Oferta dla klienta biznesowego</h3>
+          <h1 class="title_large">Wsparcie B2B<br>dla profesjonalistów</h1>
+          <p class="paragraph">Nasza oferta skierowana jest dla klienta biznesowego,<br>dlatego konsekwentnie rozwijamy
+            naszą obsługę B2B,<br>oferując coraz obszerniejsze udogodnienia hurtowe.</p>
+          <div class="btn btn_partnership">Dowiedz się więcej</div>
         </div>
       </div>
     </section>
     </div>
 
   </main>
+
+
+  <!-- <script src="js/dots.js"></script>
+  <script>
+    [].slice.call(document.querySelectorAll('.dotstyle > ul')).forEach(function (nav) {
+      new DotNav(nav, {
+        callback: function (idx) {
+          console.log(idx);
+        }
+      });
+    });
+  </script> -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/script.js"></script>
+
 </body>
 
 </html>

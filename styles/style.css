@@ -55,6 +55,15 @@
     -khtml-user-select: none;
     user-select: none; 
 }
+.hidden{
+    display: none;
+}
+.btn:hover{
+    background-color: #FFDB0F;
+    box-shadow: none;
+    border: none;
+    color: #000;
+}
 
 .circle{
     border-radius: 50%;
